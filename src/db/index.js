@@ -7,7 +7,7 @@ const connectDb=async()=>{
         console.log(`the DB conection is at ${connectionResponse.connection.host}`)
        
     } catch (error) {
-        console("Error connection to ayush DB",error)
+        console.log("Error connection to ayush DB",error)
         process.exit(1)
         
     }
