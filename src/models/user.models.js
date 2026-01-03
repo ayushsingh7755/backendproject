@@ -19,7 +19,7 @@ const userSchema = new Schema(
             lowecase: true,
             trim: true, 
         },
-        fullName: {
+        fullname: {
             type: String,
             required: true,
             trim: true, 
@@ -38,7 +38,7 @@ const userSchema = new Schema(
                 ref: "Video"
             }
         ],
-        password: {
+        passward: {
             type: String,
             required: [true, 'Password is required']
         },

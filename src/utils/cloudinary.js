@@ -15,7 +15,9 @@ try {
 
     })
     console.log("File uploaded succesfully",response.url)
+     fs.unlinkSync(localfilepath)
     return response
+    fs.unlinkSync(localfilepath)
 } catch (error) {
     fs.unlinkSync(localfilepath)
     console.log(error)

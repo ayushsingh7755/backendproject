@@ -1,1 +1,1 @@
-export const db_name="ayushsingh";
+export const db_name="media";
